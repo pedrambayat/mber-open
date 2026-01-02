@@ -1,0 +1,60 @@
+{
+  "template_config": {
+    "sasa_threshold": 50.0,
+    "hotspot_strategy": "random",
+    "pae_threshold": 30.0,
+    "distance_threshold": 25.0,
+    "gap_penalty": 10.0,
+    "include_surrounding_context": false,
+    "plm_model": "esm2-650M",
+    "sampling_temperature": 0.1,
+    "bias_temperature": 1.0,
+    "omit_amino_acids": "C",
+    "folding_model": "nbb2",
+    "target_chain": "A",
+    "binder_chain": "H"
+  },
+  "model_config": null,
+  "loss_config": null,
+  "trajectory_config": {
+    "mask_binder": false,
+    "mask_binder_variable_template": true,
+    "mask_binder_seq": false,
+    "mask_binder_sidechains": false,
+    "mask_target": false,
+    "mask_target_seq": false,
+    "mask_target_sidechains": false,
+    "soft_iters": 65,
+    "temp_iters": 25,
+    "hard_iters": 0,
+    "pssm_iters": 10,
+    "greedy_tries": 10,
+    "rm_aa": "C",
+    "update_esm_bias": false,
+    "early_stopping": true,
+    "early_stop_iptm": 0.7,
+    "early_stop_fraction": 0.6,
+    "plm_model": "esm2-650M",
+    "optimizer_type": "schedule_free_sgd",
+    "optimizer_learning_rate": 0.4,
+    "optimizer_b1": 0.9,
+    "optimizer_b2": 0.999,
+    "optimizer_eps": 1e-08,
+    "optimizer_weight_decay": null,
+    "optimizer_weight_lr_power": 2.0,
+    "optimizer_warmup_steps": null
+  },
+  "evaluation_config": {
+    "monomer_folding_model": "nbb2",
+    "plm_model": "esm2-650M",
+    "use_gpu": false,
+    "max_iterations": 0,
+    "tolerance": 2.39,
+    "stiffness": 10.0,
+    "max_outer_iterations": 3
+  },
+  "environment_config": {
+    "af_params_dir": "~/.mber/af_params",
+    "device": "cuda:0"
+  }
+}

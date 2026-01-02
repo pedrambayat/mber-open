@@ -1,0 +1,622 @@
+{
+  "binders": [
+    {
+      "binder_seq": "EVQLVESGGGLVQPGGSLRLSCAASGFSFSSYYMSWFRQAPGKEREFLAYIYFDGSTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS",
+      "complex_pdb": "binders/CD19_5909753_binder-0_iptm-0.1422_complex.pdb",
+      "monomer_pdb": "binders/CD19_5909753_binder-0_iptm-0.1422_monomer.pdb",
+      "relaxed_pdb": "binders/CD19_5909753_binder-0_iptm-0.1422_relaxed.pdb",
+      "plddt": 0.80562923848629,
+      "ptm": 0.6227400898933411,
+      "i_ptm": 0.14223231375217438,
+      "pae": 0.6036286950111389,
+      "i_pae": 0.8128714561462402,
+      "seq_ent": 2.712939977645874,
+      "unrelaxed_energy": 56434.40209672429,
+      "relaxed_energy": -8005.665168400523,
+      "relax_rmsd": 0.41931800439826,
+      "esm_score": -24.185953532578424,
+      "timings": {
+        "timings": {
+          "Predict binder 1 complex": 31.936588048934937,
+          "Fold binder 1 monomer": 3.99946928024292,
+          "Calculate ESM score for binder 1": 2.264756917953491
+        }
+      }
+    },
+    {
+      "binder_seq": "EVQLVESGGGLVQPGGSLRLSCAASGFTISSYYMSWFRQAPGKEREFLAIIYFDGFTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS",
+      "complex_pdb": "binders/CD19_5909753_binder-1_iptm-0.1529_complex.pdb",
+      "monomer_pdb": "binders/CD19_5909753_binder-1_iptm-0.1529_monomer.pdb",
+      "relaxed_pdb": "binders/CD19_5909753_binder-1_iptm-0.1529_relaxed.pdb",
+      "plddt": 0.8208062052726746,
+      "ptm": 0.6246060132980347,
+      "i_ptm": 0.15292032063007355,
+      "pae": 0.590733528137207,
+      "i_pae": 0.7985799908638,
+      "seq_ent": 2.712939977645874,
+      "unrelaxed_energy": 583712345303.2937,
+      "relaxed_energy": -7922.44930869535,
+      "relax_rmsd": 0.43438396658209844,
+      "esm_score": -27.48777240375057,
+      "timings": {
+        "timings": {
+          "Predict binder 2 complex": 24.552191734313965,
+          "Fold binder 2 monomer": 4.424129009246826,
+          "Calculate ESM score for binder 2": 1.4849433898925781
+        }
+      }
+    },
+    {
+      "binder_seq": "EVQLVESGGGLVQPGGSLRLSCAASGFSFSSYYMSWFRQAPGKEREFLAIIYFDGFTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS",
+      "complex_pdb": "binders/CD19_5909753_binder-2_iptm-0.1551_complex.pdb",
+      "monomer_pdb": "binders/CD19_5909753_binder-2_iptm-0.1551_monomer.pdb",
+      "relaxed_pdb": "binders/CD19_5909753_binder-2_iptm-0.1551_relaxed.pdb",
+      "plddt": 0.7981767505407333,
+      "ptm": 0.6260663270950317,
+      "i_ptm": 0.15510748326778412,
+      "pae": 0.5960068106651306,
+      "i_pae": 0.800681471824646,
+      "seq_ent": 2.712939977645874,
+      "unrelaxed_energy": 71118956.67762187,
+      "relaxed_energy": -7879.272740377269,
+      "relax_rmsd": 0.4372917455020652,
+      "esm_score": -26.862039772502612,
+      "timings": {
+        "timings": {
+          "Predict binder 3 complex": 24.22698950767517,
+          "Fold binder 3 monomer": 5.185528993606567,
+          "Calculate ESM score for binder 3": 1.5778839588165283
+        }
+      }
+    },
+    {
+      "binder_seq": "EVQLVESGGGLVQPGGSLRLSCAASGFSISSYYMSWFRQAPGKEREFLAIIYFDGFTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS",
+      "complex_pdb": "binders/CD19_5909753_binder-3_iptm-0.1534_complex.pdb",
+      "monomer_pdb": "binders/CD19_5909753_binder-3_iptm-0.1534_monomer.pdb",
+      "relaxed_pdb": "binders/CD19_5909753_binder-3_iptm-0.1534_relaxed.pdb",
+      "plddt": 0.8172879815101624,
+      "ptm": 0.6252779960632324,
+      "i_ptm": 0.15341827273368835,
+      "pae": 0.5921705961227417,
+      "i_pae": 0.7996470928192139,
+      "seq_ent": 2.712939977645874,
+      "unrelaxed_energy": 468393653648.15936,
+      "relaxed_energy": -7938.2948786799925,
+      "relax_rmsd": 0.42993785568887094,
+      "esm_score": -27.34983514220221,
+      "timings": {
+        "timings": {
+          "Predict binder 4 complex": 21.26392936706543,
+          "Fold binder 4 monomer": 4.847419738769531,
+          "Calculate ESM score for binder 4": 1.5099513530731201
+        }
+      }
+    }
+  ],
+  "evaluation_complete": true,
+  "logs": [
+    {
+      "timestamp": "2026-01-02T04:10:41.019152",
+      "level": "info",
+      "message": "EvaluationModule initialized with logging"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:41.019158",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule initialized with logging"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:41.019192",
+      "level": "info",
+      "message": "Initializing AlphaFold model for complex evaluation"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:41.019198",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Initializing AlphaFold model for complex evaluation"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:44.580719",
+      "level": "info",
+      "message": "Initialize AF complex model took 3.56 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:44.580744",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Initialize AF complex model took 3.56 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:44.580805",
+      "level": "info",
+      "message": "Initializing ESM model for sequence evaluation"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:44.580812",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Initializing ESM model for sequence evaluation"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:57.658988",
+      "level": "info",
+      "message": "Initialize ESM model took 13.08 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:57.659009",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Initialize ESM model took 13.08 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:57.659055",
+      "level": "info",
+      "message": "Initializing monomer folding model: nbb2"
+    },
+    {
+      "timestamp": "2026-01-02T04:10:57.659060",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Initializing monomer folding model: nbb2"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.622496",
+      "level": "info",
+      "message": "Initialize monomer folding model took 4.96 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.622517",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Initialize monomer folding model took 4.96 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.622559",
+      "level": "info",
+      "message": "EvaluationModule._setup_models completed in 21.60 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.622565",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._setup_models completed in 21.60 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.622579",
+      "level": "info",
+      "message": "Setup models took 21.60 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.622584",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Setup models took 21.60 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711286",
+      "level": "info",
+      "message": "EvaluationModule._setup_evaluation completed in 0.09 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711304",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._setup_evaluation completed in 0.09 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711337",
+      "level": "info",
+      "message": "Setup evaluation parameters took 0.09 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711342",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Setup evaluation parameters took 0.09 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711391",
+      "level": "info",
+      "message": "Setup loss functions took 0.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711397",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Setup loss functions took 0.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711419",
+      "level": "info",
+      "message": "EvaluationModule.setup completed in 21.69 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711425",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule.setup completed in 21.69 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711445",
+      "level": "info",
+      "message": "Starting evaluation of 4 binder sequences"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711451",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Starting evaluation of 4 binder sequences"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711471",
+      "level": "info",
+      "message": "Evaluating binder sequence 1/4"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:02.711477",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Evaluating binder sequence 1/4"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:16.523043",
+      "level": "info",
+      "message": "[STDOUT] predict models [0] recycles 3 hard 1 soft 0 temp 1 seqid 0.91 loss 4.82 seq_ent 2.71 pae 0.60 i_pae 0.81 con 1.58 i_con 5.11 plddt 0.81 ptm 0.62 i_ptm 0.14 rmsd 26.41 hbond -0.00 rg -0.15 salt_bridge -0.00"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:34.647929",
+      "level": "info",
+      "message": "EvaluationModule._relax_pdb completed in 18.05 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:34.647947",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._relax_pdb completed in 18.05 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:34.648046",
+      "level": "info",
+      "message": "EvaluationModule._predict_complex completed in 31.94 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:34.648053",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._predict_complex completed in 31.94 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:34.648079",
+      "level": "info",
+      "message": "Predict binder 1 complex took 31.94 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:34.648085",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Predict binder 1 complex took 31.94 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:38.647527",
+      "level": "info",
+      "message": "EvaluationModule._fold_monomer completed in 4.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:38.647546",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._fold_monomer completed in 4.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:38.647580",
+      "level": "info",
+      "message": "Fold binder 1 monomer took 4.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:38.647584",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Fold binder 1 monomer took 4.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:40.912310",
+      "level": "info",
+      "message": "EvaluationModule._get_esm_score completed in 2.26 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:40.912331",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._get_esm_score completed in 2.26 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:40.912376",
+      "level": "info",
+      "message": "Calculate ESM score for binder 1 took 2.26 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:40.912382",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Calculate ESM score for binder 1 took 2.26 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:40.912420",
+      "level": "info",
+      "message": "Evaluating binder sequence 2/4"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:40.912425",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Evaluating binder sequence 2/4"
+    },
+    {
+      "timestamp": "2026-01-02T04:11:49.100399",
+      "level": "info",
+      "message": "[STDOUT] predict models [0] recycles 3 hard 1 soft 0 temp 1 seqid 0.87 loss 4.73 seq_ent 2.71 pae 0.59 i_pae 0.80 con 1.46 i_con 5.14 plddt 0.82 ptm 0.62 i_ptm 0.15 rmsd 25.13 hbond -0.00 rg -0.23 salt_bridge -0.00"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:05.464480",
+      "level": "info",
+      "message": "EvaluationModule._relax_pdb completed in 16.32 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:05.464499",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._relax_pdb completed in 16.32 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:05.464608",
+      "level": "info",
+      "message": "EvaluationModule._predict_complex completed in 24.55 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:05.464616",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._predict_complex completed in 24.55 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:05.464643",
+      "level": "info",
+      "message": "Predict binder 2 complex took 24.55 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:05.464649",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Predict binder 2 complex took 24.55 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:09.888750",
+      "level": "info",
+      "message": "EvaluationModule._fold_monomer completed in 4.42 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:09.888770",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._fold_monomer completed in 4.42 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:09.888803",
+      "level": "info",
+      "message": "Fold binder 2 monomer took 4.42 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:09.888807",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Fold binder 2 monomer took 4.42 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:11.373705",
+      "level": "info",
+      "message": "EvaluationModule._get_esm_score completed in 1.48 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:11.373731",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._get_esm_score completed in 1.48 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:11.373782",
+      "level": "info",
+      "message": "Calculate ESM score for binder 2 took 1.48 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:11.373788",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Calculate ESM score for binder 2 took 1.48 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:11.373813",
+      "level": "info",
+      "message": "Evaluating binder sequence 3/4"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:11.373819",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Evaluating binder sequence 3/4"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:17.606798",
+      "level": "info",
+      "message": "[STDOUT] predict models [0] recycles 3 hard 1 soft 0 temp 1 seqid 0.89 loss 4.81 seq_ent 2.71 pae 0.60 i_pae 0.80 con 1.57 i_con 5.17 plddt 0.80 ptm 0.63 i_ptm 0.16 rmsd 24.97 hbond -0.00 rg -0.20 salt_bridge -0.00"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:35.600688",
+      "level": "info",
+      "message": "EvaluationModule._relax_pdb completed in 17.95 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:35.600705",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._relax_pdb completed in 17.95 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:35.600806",
+      "level": "info",
+      "message": "EvaluationModule._predict_complex completed in 24.23 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:35.600813",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._predict_complex completed in 24.23 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:35.600840",
+      "level": "info",
+      "message": "Predict binder 3 complex took 24.23 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:35.600845",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Predict binder 3 complex took 24.23 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:40.786342",
+      "level": "info",
+      "message": "EvaluationModule._fold_monomer completed in 5.19 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:40.786363",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._fold_monomer completed in 5.19 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:40.786400",
+      "level": "info",
+      "message": "Fold binder 3 monomer took 5.19 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:40.786404",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Fold binder 3 monomer took 5.19 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:42.364251",
+      "level": "info",
+      "message": "EvaluationModule._get_esm_score completed in 1.58 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:42.364272",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._get_esm_score completed in 1.58 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:42.364323",
+      "level": "info",
+      "message": "Calculate ESM score for binder 3 took 1.58 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:42.364327",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Calculate ESM score for binder 3 took 1.58 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:42.364363",
+      "level": "info",
+      "message": "Evaluating binder sequence 4/4"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:42.364369",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Evaluating binder sequence 4/4"
+    },
+    {
+      "timestamp": "2026-01-02T04:12:48.588146",
+      "level": "info",
+      "message": "[STDOUT] predict models [0] recycles 3 hard 1 soft 0 temp 1 seqid 0.88 loss 4.75 seq_ent 2.71 pae 0.59 i_pae 0.80 con 1.47 i_con 5.17 plddt 0.82 ptm 0.63 i_ptm 0.15 rmsd 25.10 hbond -0.00 rg -0.24 salt_bridge -0.00"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:03.628162",
+      "level": "info",
+      "message": "EvaluationModule._relax_pdb completed in 15.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:03.628180",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._relax_pdb completed in 15.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:03.628291",
+      "level": "info",
+      "message": "EvaluationModule._predict_complex completed in 21.26 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:03.628298",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._predict_complex completed in 21.26 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:03.628324",
+      "level": "info",
+      "message": "Predict binder 4 complex took 21.26 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:03.628330",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Predict binder 4 complex took 21.26 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:08.475722",
+      "level": "info",
+      "message": "EvaluationModule._fold_monomer completed in 4.85 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:08.475742",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._fold_monomer completed in 4.85 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:08.475776",
+      "level": "info",
+      "message": "Fold binder 4 monomer took 4.85 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:08.475787",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Fold binder 4 monomer took 4.85 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:09.985683",
+      "level": "info",
+      "message": "EvaluationModule._get_esm_score completed in 1.51 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:09.985708",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._get_esm_score completed in 1.51 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:09.985764",
+      "level": "info",
+      "message": "Calculate ESM score for binder 4 took 1.51 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:09.985769",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Calculate ESM score for binder 4 took 1.51 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:09.985787",
+      "level": "info",
+      "message": "EvaluationModule.run completed in 127.27 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:09.985791",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule.run completed in 127.27 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:09.985823",
+      "level": "info",
+      "message": "EvaluationModule._update_design_state completed in 0.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:09.985829",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] EvaluationModule._update_design_state completed in 0.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:09.985852",
+      "level": "info",
+      "message": "Update design state took 0.00 seconds"
+    },
+    {
+      "timestamp": "2026-01-02T04:13:09.985857",
+      "level": "info",
+      "message": "[STDOUT] [EvaluationModule] Update design state took 0.00 seconds"
+    }
+  ],
+  "timings": {
+    "timings": {
+      "Initialize AF complex model": 3.5615057945251465,
+      "Initialize ESM model": 13.078170537948608,
+      "Initialize monomer folding model": 4.963429927825928,
+      "Setup models": 21.603393077850342,
+      "Setup evaluation parameters": 0.08872222900390625,
+      "Setup loss functions": 2.1696090698242188e-05,
+      "Update design state": 3.409385681152344e-05
+    },
+    "run": 127.27434420585632,
+    "teardown": 0.0001742839813232422
+  }
+}

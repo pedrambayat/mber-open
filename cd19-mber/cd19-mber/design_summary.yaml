@@ -1,0 +1,117 @@
+# MBER Design Summary
+# This file contains key metrics and information about the design run.
+# Generated automatically by mber.utils.yaml_summary_utils
+
+# Metadata about this design run
+metadata:
+  timestamp: 2026-01-02 04:13:09
+  protocol: VHH_binder_design
+  version: 1.0.0
+
+# Configuration parameters used for this run
+config:
+  trajectory:
+    optimizer_type: schedule_free_sgd
+    optimizer_learning_rate: 0.4
+    optimizer_b1: 0.9
+    optimizer_b2: 0.999
+    soft_iters: 65
+    temp_iters: 25
+    hard_iters: 0
+    pssm_iters: 10
+
+# Information about the template used for design
+template:
+  target_id: P15391
+  target_name: CD19
+  region: A:20-291
+  hotspots: A54,A56,A66,A115
+  masked_sequence: EVQLVESGGGLVQPGGSLRLSCAASG*********WFRQAPGKEREF***********NADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYC************WGQGTLVTVSS
+  binder_length: 118
+  timings:
+    timings:
+      Initialize folding model: 0.8861632347106934
+    setup: 21.692517280578613
+    run: 5.1947550773620605
+    teardown: 0.19424962997436523
+
+# Trajectory optimization results
+trajectory:
+  seed: 5909753
+  completed: true
+  metrics:
+    best_loss: 3.4201316833496094
+    best_iptm: 0.4827219843864441
+    best_ptm_energy: .inf
+  timings:
+    timings:
+      Initialize AF model: 9.706659078598022
+      Setup models: 9.706774950027466
+      Setup trajectory: 0.19707846641540527
+      Setup optimizer: 0.0016627311706542969
+      Setup loss: 1.8358230590820312e-05
+      Precompile model: 40.77034521102905
+      Update design state: 6.644590377807617
+    run: 418.79691648483276
+    teardown: 6.64474630355835
+  step_timings:
+    timings:
+      Design logits phase: 418.79685497283936
+  sequences:
+  - EVQLVESGGGLVQPGGSLRLSCAASGFSFSSYYMSWFRQAPGKEREFLAYIYFDGSTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS
+  - EVQLVESGGGLVQPGGSLRLSCAASGFTISSYYMSWFRQAPGKEREFLAIIYFDGFTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS
+  - EVQLVESGGGLVQPGGSLRLSCAASGFSFSSYYMSWFRQAPGKEREFLAIIYFDGFTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS
+  - EVQLVESGGGLVQPGGSLRLSCAASGFSISSYYMSWFRQAPGKEREFLAIIYFDGFTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS
+
+# Evaluation results
+evaluation:
+  completed: true
+  timings:
+    timings:
+      Initialize AF complex model: 3.5615057945251465
+      Initialize ESM model: 13.078170537948608
+      Initialize monomer folding model: 4.963429927825928
+      Setup models: 21.603393077850342
+      Setup evaluation parameters: 0.08872222900390625
+      Setup loss functions: 2.1696090698242188e-05
+      Update design state: 3.409385681152344e-05
+    run: 127.27434420585632
+    teardown: 0.0001742839813232422
+  metrics:
+    best_iptm: 0.15510748326778412
+    best_plddt: 0.8208062052726746
+    best_ptm_energy: .inf
+  best_binder:
+    sequence: EVQLVESGGGLVQPGGSLRLSCAASGFTISSYYMSWFRQAPGKEREFLAIIYFDGFTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS
+    i_ptm: 0.15292032063007355
+    plddt: 0.8208062052726746
+    i_pae: 0.7985799908638
+    esm_score: -27.48777240375057
+    quality_score: 1.1266468465328217
+    ptm_energy: null
+    hbond: null
+    salt_bridge: null
+  binders:
+  - sequence: EVQLVESGGGLVQPGGSLRLSCAASGFSFSSYYMSWFRQAPGKEREFLAYIYFDGSTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS
+    i_ptm: 0.14223231375217438
+    plddt: 0.80562923848629
+    i_pae: 0.8128714561462402
+    esm_score: -24.185953532578424
+  - sequence: EVQLVESGGGLVQPGGSLRLSCAASGFTISSYYMSWFRQAPGKEREFLAIIYFDGFTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS
+    i_ptm: 0.15292032063007355
+    plddt: 0.8208062052726746
+    i_pae: 0.7985799908638
+    esm_score: -27.48777240375057
+  - sequence: EVQLVESGGGLVQPGGSLRLSCAASGFSFSSYYMSWFRQAPGKEREFLAIIYFDGFTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS
+    i_ptm: 0.15510748326778412
+    plddt: 0.7981767505407333
+    i_pae: 0.800681471824646
+    esm_score: -26.862039772502612
+  - sequence: EVQLVESGGGLVQPGGSLRLSCAASGFSISSYYMSWFRQAPGKEREFLAIIYFDGFTYNADSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCNRRRGPPDSTEHWGQGTLVTVSS
+    i_ptm: 0.15341827273368835
+    plddt: 0.8172879815101624
+    i_pae: 0.7996470928192139
+    esm_score: -27.34983514220221
+
+# Total design runtime in seconds
+total_runtime: 579.7977032661438
